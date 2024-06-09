@@ -57,6 +57,9 @@ The CSS file (`style.css`) styles the HTML elements to enhance the visual presen
 
 - Includes media queries to adjust styles for different screen sizes, ensuring responsiveness.
 
+- updated screenshot:
+![screenshot of live portfolio website](Assets/Images/portfolio.png)
+
 ## Conclusion
 
 This README provides an overview of the HTML and CSS files that comprise the portfolio website. The HTML defines the structure and content, while the CSS enhances its visual presentation and layout, making the website visually appealing and user-friendly.
