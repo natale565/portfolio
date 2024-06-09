@@ -1,102 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="Assets/style.css">
 </head>
+<style>
+    body {
+        background-image: url(Assets/Images/port-background.jpeg);
+    }
+</style>
+
 <body>
-    <header>
-        <h1>Christopher Natale</h1>
-        <nav>
+
+    <!-- NAVBAR-->
+    <nav>
+        <header>
+            <h1>Christopher Natale</h1>
             <ul>
-                <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#resume">Resume</a></li>
+                <li><a href="https://github.com/natale565">GitHub</a></li>
             </ul>
-        </nav>
-    </header>
+        </header>
+    </nav>
 
-    <image class="img"></image> <img src="Assets/Photos/Headshot.JPG" alt="Headshot of Christopher Natale"></image>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Write a brief introduction about yourself here.</p>
-    </section>
+    <Main>
+        <!--SECTION 1:Hero-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Christopher! 👋</h2>
+                <p>Thank you for visiting my Portfolio! On this page you will find my most recent projects, resume and
+                    contact information! I look forward to you reviewing my projects and answering any questions you may
+                    have! Looking forward to hearing from you! </p>
+            </div>
 
-    <content>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Title</h3>
-            <p>Description of the project goes here.</p>
-            <a href="#">View Project</a>
+            <div class="headshot">
+                <img src="Assets/Photos/Headshot.JPG" alt="Chris Natale headshot">
+            </div>
+        </section>
+        <!--SECTION 2:Work-->
+
+        <div id="project-font">
+            <h2 id="projects">Projects:</h2>
         </div>
-        
-    </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Title</h3>
-            <p>Description of the project goes here.</p>
-            <a href="#">View Project</a>
+
+        <div class="container">
+            <div class="box2">Refactoring HTML<a href="https://natale565.github.io/Code-Refactor/">
+                    <img src="./Assets/Images/natale565.github.io_chall-1_.png" alt="Screen shot of website"
+                        width="360px" height="266px"></a></div>
+            <div class="box">Sample Website<a href="https://natale565.github.io/sample-website/">
+                    <img src="./Assets/Images/website-pic.JPG" alt="screenshot of smaple website" width="280px"
+                        height="160px"></a></div>
+            <div class="box">coming soon!</div>
+            <div class="box">coming soon!</div>
+            <div id="resume" class="box">Resume<a href="Assets/Images/**Christopher Natale Resume.pdf">
+                    <div></div>Click here
+                </a></div>
         </div>
-        
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Title</h3>
-            <p>Description of the project goes here.</p>
-            <a href="#">View Project</a>
-        </div>
-        
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Title</h3>
-            <p>Description of the project goes here.</p>
-            <a href="#">View Project</a>
-        </div>
-        
-    </section>
-
-    <section id="resume">
-        <h1>Resume</h1>
 
 
+        <!--SECTION 3:Contact-->
+        <section id="contact" class="contact">
+            <div>
+                <h2>Contact Me</h2>
+                <ul>
+                    <li>Phone: <a href="tel:+2038235200">203-823-5200</a></li>
+                    <li>Email:<a href="emailto:natale565@icloud.com">natale565@icloud.com</a></li>
+                    <li><a href="https://github.com/natale565">Link to GitHub Page</a></li>
+                    <li><a href="https://www.linkedin.com/in/christopher-natale-1656ba17b/">Linkedin</a></li>
+                </ul>
+            </div>
+        </section>
 
-    </section>
+        <footer>
+            <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+        </footer>
 
-    </content>
+    </Main>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="submit_form.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Send Message</button>
-        </form>
-
-
-    
-    <footer>
-        <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
-    </footer>
 </body>
-</html>
 
+</html>
