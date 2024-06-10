@@ -54,7 +54,7 @@ Welcome to my portfolio website! This README will provide an overview of the HTM
 - Includes media queries to adjust styles for different screen sizes such as desktop, tablets, and mobile devices ensuring responsiveness.
 
 -  screenshot of deployed website:
-![screenshot of live portfolio website](Assets/Images/portfolio.png)
+![screenshot of live portfolio website](Assets/Images/Live-screen-shot.png)
 
 ## Conclusion
 
