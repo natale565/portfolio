@@ -57,7 +57,7 @@ The CSS file (`style.css`) styles the HTML elements to enhance the visual presen
 
 - Includes media queries to adjust styles for different screen sizes, ensuring responsiveness.
 
-- updated screenshot:
+-  screenshot of deployed website:
 ![screenshot of live portfolio website](Assets/Images/portfolio.png)
 
 ## Conclusion
